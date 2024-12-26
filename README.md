@@ -19,8 +19,38 @@ klasifikasi penyakit daun tomat dikembangkan untuk mengatasi tantangan dalam men
 Dataset "Tomato" yang diambil dari Kaggle berisi koleksi gambar daun tomat yang digunakan untuk mendeteksi dan mengklasifikasikan berbagai jenis penyakit tanaman tomat serta kondisi daunnya yang sehat. Dataset ini terdiri dari beberapa kelas, yaitu: bacterial spot, early blight, healthy, late blight, leaf mold, mosaic virus, septoria leaf spot, dan yellow leaf curl virus. Dengan jumlah total 25851 gambar, dataset ini memiliki resolusi gambar yang seragam, sehingga cocok untuk berbagai aplikasi pembelajaran mesin berbasis visi komputer. Link dataset dapat diakses melalui link berikut ini: https://www.kaggle.com/datasets/ashishmotwani/tomato
 
 
+# Langkah Instalasi
 
-# Deskripsi Model
+1. Repository
+git init
+git add .
+git commit -m "Inisialisasi proyek"
+git remote add origin (https://github.com/LiskaAyuningsih/UAP-Mechine-Learning)
+git remote add origin 
+git branch -M main
+git push -u origin main
+
+commit
+git status
+git add (sesuai file yang ditambahkan)
+git commit -m "coba"
+git push origin main
+
+2. instal dependencies
+
+   pip install pdm
+   pdm init
+   pdm add streamlit
+   pdm add tensorflow
+   pdm add joblib
+   pdm add scikit-learn
+   pip install -r requirements.txt
+
+3. Jalankan Aplikasi Web 
+
+   pdm run start
+
+4. Deskripsi Model
 
 Model yang digunakan dalam proyek ini adalah mobileNet dan Resnet berikut penjelasan dari model tersebut:
 1. MobileNetV2
