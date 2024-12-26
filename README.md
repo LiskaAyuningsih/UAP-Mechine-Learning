@@ -39,3 +39,15 @@ MobileNetV2 dirancang untuk kecepatan dan efisiensi komputasi, yang membuatnya c
 ResNet50 adalah model berbasis deep residual learning yang dirancang untuk menangani masalah degradasi dalam pelatihan jaringan dalam yang sangat dalam. Dalam analisis dataset daun tomat, ResNet50 sering memberikan hasil yang lebih akurat dibandingkan MobileNetV2 karena kemampuannya untuk menangkap fitur yang lebih kompleks melalui arsitekturnya yang dalam. Namun, model ini membutuhkan sumber daya komputasi lebih besar untuk pelatihan dan inferensi, menjadikannya lebih cocok untuk aplikasi di server atau sistem dengan daya komputasi tinggi.
 
 Dalam eksperimen ini, kedua model dievaluasi berdasarkan akurasi, loss, dan kecepatan pelatihan. ResNet50 menghasilkan akurasi lebih tinggi, khususnya pada dataset validasi, karena kemampuannya menangkap detail gambar yang kompleks. Sementara itu, MobileNetV2 unggul dalam efisiensi waktu pelatihan, membuatnya pilihan ideal untuk aplikasi real-time atau skala besar dengan sumber daya terbatas.
+
+
+
+# Hasil dan Analisis
+
+1. Model MobileNetV2
+
+   ![Alt text](![image](https://github.com/user-attachments/assets/3985706e-033f-499b-b1b5-991236240e93)
+)
+
+   ![image](https://github.com/user-attachments/assets/8f924026-241c-4b4b-ae80-4aef0599cc33)
+
