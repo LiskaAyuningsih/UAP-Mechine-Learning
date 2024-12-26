@@ -46,8 +46,5 @@ Dalam eksperimen ini, kedua model dievaluasi berdasarkan akurasi, loss, dan kece
 
 1. Model MobileNetV2
 
-   ![Alt text](![image](https://github.com/user-attachments/assets/3985706e-033f-499b-b1b5-991236240e93)
-)
-
    ![image](https://github.com/user-attachments/assets/8f924026-241c-4b4b-ae80-4aef0599cc33)
 
