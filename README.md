@@ -16,7 +16,7 @@ klasifikasi penyakit daun tomat dikembangkan untuk mengatasi tantangan dalam men
 
 # Sumber dataset 
 
-dataset yang digunakan berasal dari kaggle dapat diakses melalui link berikut ini: https://www.kaggle.com/datasets/ashishmotwani/tomato
+Dataset "Tomato" yang diambil dari Kaggle berisi koleksi gambar daun tomat yang digunakan untuk mendeteksi dan mengklasifikasikan berbagai jenis penyakit tanaman tomat serta kondisi daunnya yang sehat. Dataset ini terdiri dari beberapa kelas, yaitu: bacterial spot, early blight, healthy, late blight, leaf mold, mosaic virus, septoria leaf spot, dan yellow leaf curl virus. Dengan jumlah total 25851 gambar, dataset ini memiliki resolusi gambar yang seragam, sehingga cocok untuk berbagai aplikasi pembelajaran mesin berbasis visi komputer. Link dataset dapat diakses melalui link berikut ini: https://www.kaggle.com/datasets/ashishmotwani/tomato
 
 
 
