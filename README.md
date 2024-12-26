@@ -48,3 +48,6 @@ Dalam eksperimen ini, kedua model dievaluasi berdasarkan akurasi, loss, dan kece
 
    ![image](https://github.com/user-attachments/assets/8f924026-241c-4b4b-ae80-4aef0599cc33)
 
+   ![image](https://github.com/user-attachments/assets/efcd936e-d7ae-4905-9512-d81e74c6e59b)
+
+
