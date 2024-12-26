@@ -28,3 +28,14 @@ Model yang digunakan dalam proyek ini adalah mobileNet dan Resnet berikut penjel
 
 2. ResNet50
    ResNet50 adalah model deep learning yang populer untuk tugas klasifikasi gambar karena kemampuannya menangani jaringan yang sangat dalam tanpa menghadapi masalah vanishing gradient. Model ini memanfaatkan residual blocks dengan koneksi pintas (skip connections), yang memungkinkan pelatihan arsitektur lebih dalam dengan lebih stabil. Dalam proyek ini, ResNet50 digunakan dengan bobot pretrained dari ImageNet, di mana lapisan dasar dibekukan untuk mempertahankan fitur generik yang telah dipelajari, sementara lapisan tambahan dilatih untuk mendukung klasifikasi dataset spesifik. Dengan kemampuannya menangkap fitur kompleks, ResNet50 menjadi pilihan tepat untuk dataset yang membutuhkan model yang lebih kuat dalam menganalisis pola visual tingkat tinggi.
+
+
+
+
+# Analisis Ferforma Model 
+
+MobileNetV2 dirancang untuk kecepatan dan efisiensi komputasi, yang membuatnya cocok untuk perangkat dengan sumber daya terbatas, seperti ponsel atau perangkat IoT. Dalam penelitian ini, MobileNetV2 menunjukkan performa yang kompetitif dalam mengklasifikasikan dataset daun tomat dengan tingkat akurasi tinggi. Keunggulannya terletak pada arsitektur depthwise separable convolutions, yang mengurangi jumlah parameter dan operasi tanpa mengorbankan akurasi secara signifikan. Meskipun cepat dan ringan, performanya pada dataset yang lebih kompleks mungkin sedikit tertinggal dibandingkan model yang lebih besar, seperti ResNet50.
+
+ResNet50 adalah model berbasis deep residual learning yang dirancang untuk menangani masalah degradasi dalam pelatihan jaringan dalam yang sangat dalam. Dalam analisis dataset daun tomat, ResNet50 sering memberikan hasil yang lebih akurat dibandingkan MobileNetV2 karena kemampuannya untuk menangkap fitur yang lebih kompleks melalui arsitekturnya yang dalam. Namun, model ini membutuhkan sumber daya komputasi lebih besar untuk pelatihan dan inferensi, menjadikannya lebih cocok untuk aplikasi di server atau sistem dengan daya komputasi tinggi.
+
+Dalam eksperimen ini, kedua model dievaluasi berdasarkan akurasi, loss, dan kecepatan pelatihan. ResNet50 menghasilkan akurasi lebih tinggi, khususnya pada dataset validasi, karena kemampuannya menangkap detail gambar yang kompleks. Sementara itu, MobileNetV2 unggul dalam efisiensi waktu pelatihan, membuatnya pilihan ideal untuk aplikasi real-time atau skala besar dengan sumber daya terbatas.
